@@ -1,0 +1,9 @@
+runner_packages:
+  - docker.io
+  - curl
+  - git
+  - jq
+  - unzip
+  - apt-transport-https
+
+runner_version: "2.321.0"

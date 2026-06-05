@@ -1,0 +1,10 @@
+---
+- name: Configure GitHub Actions self-hosted runners
+  hosts: runners
+  become: true
+
+  vars_files:
+    - roles/runner/vars/main.yml
+
+  roles:
+    - runner
